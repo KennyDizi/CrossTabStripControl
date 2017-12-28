@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CrossTapStripControl.ImageTabStripPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:crossTapStripControl="clr-namespace:CrossTapStripControl;assembly=CrossTapStripControl"
+    Title="Image TabStrip">
+    <crossTapStripControl:CrossTabStripControl
+        x:Name="TabControl"
+        TabActivated="OnTabActivated"
+        TabBackColor="Accent"
+        TabHeight="70"
+        TabIndicatorColor="Aqua">
+        <crossTapStripControl:CrossTabStripControl.Children>
+            <crossTapStripControl:TabItem
+                Title="Tab1"
+                ImageDeactiveUrl="ic_favorite_white_36dp.png"
+                ImageUrl="ic_favorite_black_36dp.png">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab1" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+
+            <crossTapStripControl:TabItem
+                Title="Tab2"
+                ImageDeactiveUrl="ic_favorite_white_36dp.png"
+                ImageUrl="ic_favorite_black_36dp.png">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab2" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+
+            <crossTapStripControl:TabItem
+                Title="Tab3"
+                ImageDeactiveUrl="ic_favorite_white_36dp.png"
+                ImageUrl="ic_favorite_black_36dp.png">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab3" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+
+            <crossTapStripControl:TabItem
+                Title="Tab4"
+                ImageDeactiveUrl="ic_favorite_white_36dp.png"
+                ImageUrl="ic_favorite_black_36dp.png">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab4" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+        </crossTapStripControl:CrossTabStripControl.Children>
+    </crossTapStripControl:CrossTabStripControl>
+</ContentPage>

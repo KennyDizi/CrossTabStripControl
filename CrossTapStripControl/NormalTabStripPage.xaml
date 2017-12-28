@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CrossTapStripControl.NormalTabStripPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:crossTapStripControl="clr-namespace:CrossTapStripControl;assembly=CrossTapStripControl"
+    Title="Normal TabStrip">
+    <crossTapStripControl:CrossTabStripControl TabBackColor="Accent" TabIndicatorColor="Aqua">
+        <crossTapStripControl:CrossTabStripControl.Children>
+            <crossTapStripControl:TabItem Title="Tab1">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab1" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+
+            <crossTapStripControl:TabItem Title="Tab2">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab2" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+
+            <crossTapStripControl:TabItem Title="Tab3">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab3" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+
+            <crossTapStripControl:TabItem Title="Tab4">
+                <crossTapStripControl:TabItem.View>
+                    <ContentView>
+                        <Label Text="This is tab4" />
+                    </ContentView>
+                </crossTapStripControl:TabItem.View>
+            </crossTapStripControl:TabItem>
+        </crossTapStripControl:CrossTabStripControl.Children>
+    </crossTapStripControl:CrossTabStripControl>
+</ContentPage>
